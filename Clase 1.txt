@@ -1,0 +1,22 @@
+5/4/2018
+
+Jupiter 
+Github
+github.com/lab-ml-itba
+
+kagel -> Datasets
+Wikipedia -> Datasets para ML
+
+git init
+git clone
+
+conda create -n carlos python=2.7
+source activate carlos
+conda install newspaper
+source deactivate
+
+jupiter notebook
+github
+
+clase 2 (videos recomendados).
+
