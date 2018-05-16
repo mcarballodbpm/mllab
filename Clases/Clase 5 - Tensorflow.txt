@@ -1,0 +1,36 @@
+
+Se define 
+Modelo:
+	x grafo
+	w(weigthts)
+	b(bias)
+	h=W.x + b (XN
+	out=softmax/sigmoidea(h) --> e^(hi)/E(e^hi)
+
+Funcionaes:
+	Loss funct -> Cross Entropy, MSE
+	optimizador -> Gradinet Descent, etc.
+	Operación de Training. 
+
+Tensorflow : Compila -> Calcula los gradientes. 
+
+Paso para que calcule: 
+Batch, label y 
+
+log_probabilidad_sin_factor_escala=
+softmax_cross_entropy_with_logits -> Se utiliza para tomar el cálculo completo de softmax. 
+sigmoidea^(-1)=logit
+
+xent=-1/m.EYi.log(1/(1+e^logit)+(1-y)log(1-1/(1+e^logit))) = > yiE(softmax)
+
+Tenorboard -> Tensorboard logdir='log4'
+
+
+---------------------------------
+---------------------------------
+Perceptron: 
+
+Fully Conected: Red Neuronal
+
+Loss escalares para Trein y Test
+Jugar con topología
